@@ -1,0 +1,14 @@
+下载创建的机器人视图
+urdf_to_graphviz first_robot.urdf
+安装节点
+sudo apt install ros-$ROS_DISTRO-joint-state-publisher
+sudo apt install ros-$ROS_DISTRO-robot-state-publisher
+
+安装xacro转urdf的工具
+sudo apt install ros-$ROS_DISTRO-xacro
+xacro 路径
+ros2 launch fishbot_description  display_robot.launch.py model:=/home/wang/desktop/item/chapter6/chapt6_ws/src/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+
+
+
+

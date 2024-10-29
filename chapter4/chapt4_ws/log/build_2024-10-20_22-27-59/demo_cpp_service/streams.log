@@ -1,0 +1,79 @@
+[0.051s] Invoking command in '/home/wang/desktop/item/chapter4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces:/home/wang/tb3_ws/install/turtlebot3:/home/wang/tb3_ws/install/turtlebot3_simulations:/home/wang/tb3_ws/install/turtlebot3_bringup:/home/wang/tb3_ws/install/turtlebot3_node:/home/wang/tb3_ws/install/turtlebot3_navigation2:/home/wang/tb3_ws/install/turtlebot3_fake_node:/home/wang/tb3_ws/install/turtlebot3_msgs:/home/wang/tb3_ws/install/turtlebot3_gazebo:/home/wang/tb3_ws/install/turtlebot3_description:/home/wang/tb3_ws/install/turtlebot3_cartographer:/home/wang/tb3_ws/install/ld08_driver:/home/wang/tb3_ws/install/hls_lfcd_lds_driver:/home/wang/tb3_ws/install/dynamixel_sdk_examples:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces:/home/wang/tb3_ws/install/dynamixel_sdk:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wang/desktop/item/chapter4/chapt4_ws/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service
+[0.300s] -- The C compiler identification is GNU 11.4.0
+[0.550s] -- The CXX compiler identification is GNU 11.4.0
+[0.580s] -- Detecting C compiler ABI info
+[0.853s] -- Detecting C compiler ABI info - done
+[0.871s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.879s] -- Detecting C compile features
+[0.880s] -- Detecting C compile features - done
+[0.893s] -- Detecting CXX compiler ABI info
+[1.333s] -- Detecting CXX compiler ABI info - done
+[1.365s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.368s] -- Detecting CXX compile features
+[1.371s] -- Detecting CXX compile features - done
+[1.394s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.985s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.310s] -- Found chapt4_interfaces: 0.0.0 (/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[2.452s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.476s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.508s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.570s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.611s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.866s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.124s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.158s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.555s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.660s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.857s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.922s] -- Looking for pthread.h
+[4.172s] -- Looking for pthread.h - found
+[4.173s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.428s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.432s] -- Found Threads: TRUE  
+[4.642s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[4.902s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.180s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.180s] -- Configured cppcheck include dirs: 
+[5.180s] -- Configured cppcheck exclude dirs and/or files: 
+[5.180s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.183s] -- Added test 'lint_cmake' to check CMake code style
+[5.183s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.185s] -- Added test 'uncrustify' to check C / C++ code style
+[5.185s] -- Configured uncrustify additional arguments: 
+[5.187s] -- Added test 'xmllint' to check XML markup files
+[5.192s] -- Configuring done
+[5.237s] -- Generating done
+[5.242s] -- Build files have been written to: /home/wang/desktop/item/chapter4/chapt4_ws/build/demo_cpp_service
+[5.281s] Invoked command in '/home/wang/desktop/item/chapter4/chapt4_ws/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces:/home/wang/tb3_ws/install/turtlebot3:/home/wang/tb3_ws/install/turtlebot3_simulations:/home/wang/tb3_ws/install/turtlebot3_bringup:/home/wang/tb3_ws/install/turtlebot3_node:/home/wang/tb3_ws/install/turtlebot3_navigation2:/home/wang/tb3_ws/install/turtlebot3_fake_node:/home/wang/tb3_ws/install/turtlebot3_msgs:/home/wang/tb3_ws/install/turtlebot3_gazebo:/home/wang/tb3_ws/install/turtlebot3_description:/home/wang/tb3_ws/install/turtlebot3_cartographer:/home/wang/tb3_ws/install/ld08_driver:/home/wang/tb3_ws/install/hls_lfcd_lds_driver:/home/wang/tb3_ws/install/dynamixel_sdk_examples:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces:/home/wang/tb3_ws/install/dynamixel_sdk:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wang/desktop/item/chapter4/chapt4_ws/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service
+[5.284s] Invoking command in '/home/wang/desktop/item/chapter4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces:/home/wang/tb3_ws/install/turtlebot3:/home/wang/tb3_ws/install/turtlebot3_simulations:/home/wang/tb3_ws/install/turtlebot3_bringup:/home/wang/tb3_ws/install/turtlebot3_node:/home/wang/tb3_ws/install/turtlebot3_navigation2:/home/wang/tb3_ws/install/turtlebot3_fake_node:/home/wang/tb3_ws/install/turtlebot3_msgs:/home/wang/tb3_ws/install/turtlebot3_gazebo:/home/wang/tb3_ws/install/turtlebot3_description:/home/wang/tb3_ws/install/turtlebot3_cartographer:/home/wang/tb3_ws/install/ld08_driver:/home/wang/tb3_ws/install/hls_lfcd_lds_driver:/home/wang/tb3_ws/install/dynamixel_sdk_examples:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces:/home/wang/tb3_ws/install/dynamixel_sdk:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wang/desktop/item/chapter4/chapt4_ws/build/demo_cpp_service -- -j4 -l4
+[5.432s] [ 25%] [32mBuilding CXX object CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o[0m
+[5.458s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[21.072s] [ 75%] [32m[1mLinking CXX executable patrol_client[0m
+[21.927s] [ 75%] Built target patrol_client
+[35.899s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[37.264s] [100%] Built target turtle_control
+[37.297s] Invoked command in '/home/wang/desktop/item/chapter4/chapt4_ws/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces:/home/wang/tb3_ws/install/turtlebot3:/home/wang/tb3_ws/install/turtlebot3_simulations:/home/wang/tb3_ws/install/turtlebot3_bringup:/home/wang/tb3_ws/install/turtlebot3_node:/home/wang/tb3_ws/install/turtlebot3_navigation2:/home/wang/tb3_ws/install/turtlebot3_fake_node:/home/wang/tb3_ws/install/turtlebot3_msgs:/home/wang/tb3_ws/install/turtlebot3_gazebo:/home/wang/tb3_ws/install/turtlebot3_description:/home/wang/tb3_ws/install/turtlebot3_cartographer:/home/wang/tb3_ws/install/ld08_driver:/home/wang/tb3_ws/install/hls_lfcd_lds_driver:/home/wang/tb3_ws/install/dynamixel_sdk_examples:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces:/home/wang/tb3_ws/install/dynamixel_sdk:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wang/desktop/item/chapter4/chapt4_ws/build/demo_cpp_service -- -j4 -l4
+[37.486s] Invoking command in '/home/wang/desktop/item/chapter4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces:/home/wang/tb3_ws/install/turtlebot3:/home/wang/tb3_ws/install/turtlebot3_simulations:/home/wang/tb3_ws/install/turtlebot3_bringup:/home/wang/tb3_ws/install/turtlebot3_node:/home/wang/tb3_ws/install/turtlebot3_navigation2:/home/wang/tb3_ws/install/turtlebot3_fake_node:/home/wang/tb3_ws/install/turtlebot3_msgs:/home/wang/tb3_ws/install/turtlebot3_gazebo:/home/wang/tb3_ws/install/turtlebot3_description:/home/wang/tb3_ws/install/turtlebot3_cartographer:/home/wang/tb3_ws/install/ld08_driver:/home/wang/tb3_ws/install/hls_lfcd_lds_driver:/home/wang/tb3_ws/install/dynamixel_sdk_examples:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces:/home/wang/tb3_ws/install/dynamixel_sdk:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wang/desktop/item/chapter4/chapt4_ws/build/demo_cpp_service
+[37.509s] -- Install configuration: ""
+[37.509s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control
+[37.522s] -- Set runtime path of "/home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control" to ""
+[37.523s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/patrol_client
+[37.524s] -- Set runtime path of "/home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/patrol_client" to ""
+[37.524s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/launch
+[37.524s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/launch/demo.launch.py
+[37.525s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[37.525s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[37.526s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[37.528s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[37.528s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[37.529s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[37.529s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[37.530s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[37.531s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[37.531s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[37.533s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[37.534s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[37.534s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[37.534s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[37.534s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[37.538s] Invoked command in '/home/wang/desktop/item/chapter4/chapt4_ws/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces:/home/wang/tb3_ws/install/turtlebot3:/home/wang/tb3_ws/install/turtlebot3_simulations:/home/wang/tb3_ws/install/turtlebot3_bringup:/home/wang/tb3_ws/install/turtlebot3_node:/home/wang/tb3_ws/install/turtlebot3_navigation2:/home/wang/tb3_ws/install/turtlebot3_fake_node:/home/wang/tb3_ws/install/turtlebot3_msgs:/home/wang/tb3_ws/install/turtlebot3_gazebo:/home/wang/tb3_ws/install/turtlebot3_description:/home/wang/tb3_ws/install/turtlebot3_cartographer:/home/wang/tb3_ws/install/ld08_driver:/home/wang/tb3_ws/install/hls_lfcd_lds_driver:/home/wang/tb3_ws/install/dynamixel_sdk_examples:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces:/home/wang/tb3_ws/install/dynamixel_sdk:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wang/desktop/item/chapter4/chapt4_ws/build/demo_cpp_service

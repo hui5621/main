@@ -1,0 +1,180 @@
+[0.089s] Invoking command in '/home/wang/desktop/item/chapter4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wang/desktop/item/chapter4/chapt4_ws/install/demo_python_service:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/wang/desktop/item/chapter4/chapt4_ws/build/chapt4_interfaces -- -j4 -l4
+[0.277s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_generator_c[0m
+[0.298s] [  2%] Built target chapt4_interfaces__cpp
+[0.335s] [  2%] Built target ament_cmake_python_copy_chapt4_interfaces
+[0.338s] [ 12%] Built target chapt4_interfaces__rosidl_generator_c
+[0.355s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.378s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_cpp[0m
+[0.396s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.425s] [ 23%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.434s] [ 33%] Built target chapt4_interfaces__rosidl_typesupport_cpp
+[0.467s] [ 43%] Built target chapt4_interfaces__rosidl_typesupport_introspection_cpp
+[0.486s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.489s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_introspection_c[0m
+[0.523s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_c[0m
+[0.541s] [ 53%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c
+[0.556s] [ 64%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c
+[0.572s] [ 74%] Built target chapt4_interfaces__rosidl_typesupport_c
+[0.663s] [ 74%] Built target chapt4_interfaces
+[0.741s] [ 76%] Built target chapt4_interfaces__py
+[0.785s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_generator_py[0m
+[0.824s] [ 84%] Built target chapt4_interfaces__rosidl_generator_py
+[0.900s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_c__pyext[0m
+[0.901s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.919s] [35m[1mConsolidate compiler generated dependencies of target chapt4_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.945s] [ 89%] Built target chapt4_interfaces__rosidl_typesupport_c__pyext
+[0.966s] [ 94%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.988s] [100%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.254s] running egg_info
+[1.258s] writing chapt4_interfaces.egg-info/PKG-INFO
+[1.260s] writing dependency_links to chapt4_interfaces.egg-info/dependency_links.txt
+[1.261s] writing top-level names to chapt4_interfaces.egg-info/top_level.txt
+[1.269s] reading manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[1.271s] writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[1.355s] [100%] Built target ament_cmake_python_build_chapt4_interfaces_egg
+[1.391s] Invoked command in '/home/wang/desktop/item/chapter4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wang/desktop/item/chapter4/chapt4_ws/install/demo_python_service:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/wang/desktop/item/chapter4/chapt4_ws/build/chapt4_interfaces -- -j4 -l4
+[1.717s] Invoking command in '/home/wang/desktop/item/chapter4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wang/desktop/item/chapter4/chapt4_ws/install/demo_python_service:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/wang/desktop/item/chapter4/chapt4_ws/build/chapt4_interfaces
+[1.745s] -- Install configuration: ""
+[1.746s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/rosidl_interfaces/chapt4_interfaces
+[1.746s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[1.746s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[1.746s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.h
+[1.746s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[1.746s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__type_support.h
+[1.747s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.h
+[1.747s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__functions.h
+[1.747s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.h
+[1.747s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__struct.h
+[1.747s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.c
+[1.748s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.h
+[1.748s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__functions.c
+[1.748s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/patrol.h
+[1.749s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[1.749s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.750s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.sh
+[1.750s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.dsv
+[1.750s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so
+[1.750s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[1.750s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[1.751s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[1.752s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_c.h
+[1.752s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[1.752s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[1.752s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.752s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.753s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[1.753s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[1.753s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/patrol.hpp
+[1.753s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[1.753s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__struct.hpp
+[1.753s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.hpp
+[1.753s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__traits.hpp
+[1.754s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__traits.hpp
+[1.754s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__builder.hpp
+[1.754s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__builder.hpp
+[1.754s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.hpp
+[1.754s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[1.754s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[1.754s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[1.755s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp
+[1.755s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/dds_fastrtps
+[1.755s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[1.755s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[1.755s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.756s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.756s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[1.756s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[1.757s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[1.757s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[1.757s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.c
+[1.757s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_c.h
+[1.757s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__type_support.c
+[1.758s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[1.758s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.758s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so
+[1.758s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so
+[1.758s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[1.758s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[1.758s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[1.759s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__type_support.cpp
+[1.759s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[1.759s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_cpp.hpp
+[1.759s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.cpp
+[1.762s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.765s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so
+[1.766s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.sh
+[1.766s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.dsv
+[1.766s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info
+[1.766s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.766s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.766s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.766s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.769s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces
+[1.769s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv
+[1.769s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_patrol.py
+[1.770s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector.py
+[1.770s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/__init__.py
+[1.770s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_patrol_s.c
+[1.770s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector_s.c
+[1.770s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/__init__.py
+[1.770s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.771s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.771s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c
+[1.771s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/libchapt4_interfaces__rosidl_generator_py.so
+[1.771s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.771s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.774s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.886s] Listing '/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces'...
+[1.886s] Listing '/home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv'...
+[1.913s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.915s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.917s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.919s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so
+[1.921s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.idl
+[1.921s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol.idl
+[1.921s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.srv
+[1.923s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Request.msg
+[1.923s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Response.msg
+[1.924s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol.srv
+[1.924s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol_Request.msg
+[1.924s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Patrol_Response.msg
+[1.924s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/package_run_dependencies/chapt4_interfaces
+[1.924s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/parent_prefix_path/chapt4_interfaces
+[1.924s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.sh
+[1.925s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.dsv
+[1.925s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.sh
+[1.925s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.dsv
+[1.926s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.bash
+[1.927s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.sh
+[1.927s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.zsh
+[1.927s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.dsv
+[1.928s] -- Installing: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv
+[1.928s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/packages/chapt4_interfaces
+[1.929s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport.cmake
+[1.929s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.929s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.929s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.930s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cppExport.cmake
+[1.933s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.933s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.934s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.935s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.936s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport.cmake
+[1.936s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.937s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.937s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.939s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport.cmake
+[1.940s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.942s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport.cmake
+[1.942s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.942s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.942s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.942s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.942s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.943s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.943s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.943s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.943s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig.cmake
+[1.943s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig-version.cmake
+[1.944s] -- Up-to-date: /home/wang/desktop/item/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.xml
+[1.953s] Invoked command in '/home/wang/desktop/item/chapter4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wang/desktop/item/chapter4/chapt4_ws/install/demo_python_service:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/wang/desktop/item/chapter4/chapt4_ws/build/chapt4_interfaces

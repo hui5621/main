@@ -1,0 +1,31 @@
+[0.056s] Invoking command in '/home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wang/桌面/item/chapter2/chapter2_ws/install/demo_python_pkg:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg -- -j4 -l4
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target learn_shared_ptr[0m
+[0.298s] [ 25%] Built target learn_auto
+[0.307s] [ 50%] Built target cpp_node
+[0.327s] [ 62%] [32mBuilding CXX object CMakeFiles/learn_shared_ptr.dir/src/learn_shared_ptr.cpp.o[0m
+[0.341s] [ 87%] Built target person_node
+[1.758s] [100%] [32m[1mLinking CXX executable learn_shared_ptr[0m
+[2.043s] [100%] Built target learn_shared_ptr
+[2.084s] Invoked command in '/home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wang/桌面/item/chapter2/chapter2_ws/install/demo_python_pkg:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg -- -j4 -l4
+[2.290s] Invoking command in '/home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wang/桌面/item/chapter2/chapter2_ws/install/demo_python_pkg:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg
+[2.320s] -- Install configuration: ""
+[2.321s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[2.321s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[2.321s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_auto
+[2.321s] -- Installing: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_shared_ptr
+[2.321s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[2.327s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[2.328s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[2.328s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[2.329s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[2.332s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[2.333s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[2.333s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[2.334s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[2.335s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[2.336s] -- Installing: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[2.337s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[2.337s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[2.341s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[2.342s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[2.352s] Invoked command in '/home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wang/桌面/item/chapter2/chapter2_ws/install/demo_python_pkg:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg

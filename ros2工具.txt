@@ -1,0 +1,43 @@
+TF命令：计算坐标
+发布base_link到base_laser之间的变换
+ros2 run tf2_ros static_transform_publisher --x 0.1 --y 0.0 --z 0.2 --roll 0.0 --pitch 0.0 --yaw 0.0 --frame-id base_link --child-frame-id base_laser
+发布base_link到bwall_point之间的变换
+ros2 run tf2_ros static_transform_publisher --x 0.3 --y 0.0 --z 0.0 --roll 0.0 --pitch 0.0 --yaw 0.0 --frame-id base_laser --child-frame-id wall_point
+查询base_laser 到 wall_point之间的关系
+ros2 run tf2_ros tf2_echo base_link  wall_point
+
+可视化工具安装：
+sudo apt install ros-humble-mrpt2 -y
+3d-rotation-converter
+查看TF树
+ros2 run tf2_tools view_frames
+查看话题
+ros2 topic list
+查看话题信息
+ros2 topic info /tf_static 
+ ros2 interface show tf2_msgs/msg/TFMessage
+ros2 topic echo /tf_static 
+PRY转换成四元素所需要的库“
+sudo apt install ros-$ROS_DISTRO-tf-transformations
+sudo pip3 install transforms3d
+
+rqt
+安装插件
+sudo apt install ros-$ROS_DISTRO-rqt-tf-tree -y
+更新配置文件
+rm -rf ~/.config/ros.org/rqt_gui.ini
+数据可视化工具
+rviz2
+rviz2 -d 文件路径
+
+5.5 ros2 bag  数据记录工具
+打开小海龟、控制小海龟，记录小海龟
+ros2 run turtlesim turtle_teleop_key    ros2 run turtlesim turtlesim_node
+
+ros2 bag record /turtle1/cmd_vel
+生成工具包：rosbag2_2024_10_21-16_01_01/metadata.yaml
+ros2 bag play rosbag2_2024_10_21-16_01_01/ -h
+
+
+
+

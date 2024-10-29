@@ -1,0 +1,62 @@
+
+colcon build
+
+启动python服务器：
+python3 -m http.server
+
+
+启动海龟
+ros2 run turtlesim turtlesim_node
+ros2 service list -t       列出当前运行的服务，显示接口类型
+输出： 服务名字 服务的消息接口
+ ros2 interface show turtlesim/srv/Spawn 产看接口具体内容
+ 输出：请求部分  ---下面：返回部分
+ros2 service call /spawn turtlesim/srv/Spawn “{x: 1, y: 1}"
+  调用服务
+rqt  可视化工具
+
+#在src下创建功能包
+python：
+ros2 pkg create status _publisher --build-type ament_python --dependencies rclpy status_interfaces  --license Apache-2.0
+C++：
+ros2 pkg create demo_cpp_topic --build-type ament_cmake  --dependencies rclcpp geometry_msgs turtlesim --license Apache-2.0
+
+
+
+git仓库代码：
+git config --global user.name "wang"
+git config --global user.email "2352947187@qq.com"
+git config --global init.defaultBranch master 设置分支名称
+git config -l
+git init 初始化仓库
+rm -rf .git  删除仓库
+git add src/status_interfaces/package.xml   添加到暂存区
+git reset  踢出暂存区
+git commit  -m "完成状态发布与显示功能"         提交代码
+git log  查看提交记录
+
+在当前目录创建.gitignore文件  输入想要忽略的路径
+git add .gitignore
+
+
+gedit /home/username/.config/user-dirs.dirs
+只显示固定文件
+
+git status      显示哪个文件修改了
+git diff 文件名       显示指定文件所修改的文件
+git checkout package.xml  删除所有更改 ：未进入缓冲区
+git reset package.xml     撤销进入缓冲区的
+已经提交的：
+git log
+git reset  0a1fc1bf3336218649c3d31d97f792bdcc432088
+Git分支：
+git branch   查看分支
+git branch rolling  创建分支
+git checkout rolling  切换分支
+ git merge rolling   合并分支
+git branch -D rolling 删除分支
+
+
+
+
+

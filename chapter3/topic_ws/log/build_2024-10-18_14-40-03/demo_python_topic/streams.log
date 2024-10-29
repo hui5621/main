@@ -1,0 +1,34 @@
+[2.509s] Invoking command in '/home/wang/桌面/item/chapter3/topic_ws/src/demo_python_topic': PYTHONPATH=/home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wang/桌面/item/chapter3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic/build install --record /home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[3.448s] running egg_info
+[3.448s] creating ../../build/demo_python_topic/demo_python_topic.egg-info
+[3.448s] writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[3.449s] writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[3.449s] writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[3.449s] writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[3.449s] writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[3.453s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[3.453s] reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[3.453s] adding license file 'LICENSE'
+[3.454s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[3.454s] running build
+[3.454s] running build_py
+[3.454s] creating /home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic/build
+[3.454s] creating /home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic/build/lib
+[3.454s] creating /home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[3.455s] copying demo_python_topic/__init__.py -> /home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[3.455s] running install
+[3.459s] running install_lib
+[3.459s] creating /home/wang/桌面/item/chapter3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[3.460s] copying /home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/__init__.py -> /home/wang/桌面/item/chapter3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[3.460s] byte-compiling /home/wang/桌面/item/chapter3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/__init__.py to __init__.cpython-310.pyc
+[3.460s] running install_data
+[3.460s] creating /home/wang/桌面/item/chapter3/topic_ws/install/demo_python_topic/share/ament_index
+[3.461s] creating /home/wang/桌面/item/chapter3/topic_ws/install/demo_python_topic/share/ament_index/resource_index
+[3.461s] creating /home/wang/桌面/item/chapter3/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[3.461s] copying resource/demo_python_topic -> /home/wang/桌面/item/chapter3/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[3.462s] copying package.xml -> /home/wang/桌面/item/chapter3/topic_ws/install/demo_python_topic/share/demo_python_topic
+[3.462s] running install_egg_info
+[3.462s] Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/wang/桌面/item/chapter3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info
+[3.467s] running install_scripts
+[3.540s] writing list of installed files to '/home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic/install.log'
+[3.608s] Invoked command in '/home/wang/桌面/item/chapter3/topic_ws/src/demo_python_topic' returned '0': PYTHONPATH=/home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wang/桌面/item/chapter3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic/build install --record /home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data

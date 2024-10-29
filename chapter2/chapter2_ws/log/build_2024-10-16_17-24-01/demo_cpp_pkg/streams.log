@@ -1,0 +1,49 @@
+[0.038s] Invoking command in '/home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wang/桌面/item/chapter2/chapter2_ws/install/demo_python_pkg:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg -- -j4 -l4
+[0.188s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.265s] [ 25%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[0.276s] [ 75%] Built target cpp_node
+[8.526s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.532s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.532s]                  from [01m[K/home/wang/桌面/item/chapter2/chapter2_ws/src/demo_cpp_pkg/src/person_node.cpp:1[m[K:
+[8.532s] [01m[K/home/wang/桌面/item/chapter2/chapter2_ws/src/demo_cpp_pkg/src/person_node.cpp:[m[K In member function ‘[01m[Kvoid PersonNode::eat(const string&)[m[K’:
+[8.532s] [01m[K/home/wang/桌面/item/chapter2/chapter2_ws/src/demo_cpp_pkg/src/person_node.cpp:21:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 7 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[8.532s]    21 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"我是%s,%d岁,爱吃%s"[m[K, name.c_str(), age, food_name);
+[8.532s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.539s] [01m[K/home/wang/桌面/item/chapter2/chapter2_ws/src/demo_cpp_pkg/src/person_node.cpp:21:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[8.539s]    21 |         RCLCPP_INFO(this->get_logger(), "我是%s,%d岁,爱吃[01;36m[K%s[m[K", name.c_str(), age, food_name);
+[8.539s]       |                                                          [01;36m[K~^[m[K
+[8.540s]       |                                                           [01;36m[K|[m[K
+[8.540s]       |                                                           [01;36m[Kchar*[m[K
+[10.425s] [100%] [32m[1mLinking CXX executable person_node[0m
+[10.804s] [100%] Built target person_node
+[10.856s] Invoked command in '/home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wang/桌面/item/chapter2/chapter2_ws/install/demo_python_pkg:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg -- -j4 -l4
+[11.009s] Invoking command in '/home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wang/桌面/item/chapter2/chapter2_ws/install/demo_python_pkg:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg
+[11.037s] -- Install configuration: ""
+[11.038s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[11.041s] -- Installing: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[11.042s] -- Set runtime path of "/home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node" to ""
+[11.042s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[11.042s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[11.043s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[11.044s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[11.044s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[11.044s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[11.045s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[11.045s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[11.045s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[11.046s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[11.046s] -- Installing: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[11.046s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[11.046s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[11.046s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[11.047s] -- Up-to-date: /home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[11.055s] Invoked command in '/home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wang/桌面/item/chapter2/chapter2_ws/install/demo_python_pkg:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg

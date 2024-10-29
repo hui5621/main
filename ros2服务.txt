@@ -1,0 +1,75 @@
+启动海龟
+ros2 run turtlesim turtlesim_node
+ros2 service list -t       列出当前运行的服务，显示接口类型
+输出： 服务名字 服务的消息接口
+ ros2 interface show turtlesim/srv/Spawn 查看接口具体内容
+ 输出：请求部分  ---下面：返回部分
+ros2 service call /spawn turtlesim/srv/Spawn “{x: 1, y: 1}"
+  调用服务
+rqt  可视化工具
+ros2 param list  查看参数列表
+ ros2 param describe /turtlesim background_b  描述功能
+ ros2 param get /turtlesim background_b 获得值
+ ros2 param set /turtlesim background_b 50 修改
+ ros2 param dump /turtlesim > turtlesim_param.yaml
+将某个节点的参数导出为yaml格式的文件
+ros2 run turtlesim turtlesim_node --ros-args --params-file turtlesim_param.yaml 
+重新运行
+cat 文件名 查看
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+git仓库代码：
+git config --global user.name "wang"
+git config --global user.email "2352947187@qq.com"
+git config --global init.defaultBranch master 设置分支名称
+git config -l
+git init 初始化仓库
+rm -rf .git  删除仓库
+git add src/status_interfaces/package.xml   添加到暂存区
+git reset  踢出暂存区
+git commit  -m "完成状态发布与显示功能"         提交代码
+git log  查看提交记录
+
+在当前目录创建.gitignore文件  输入想要忽略的路径
+git add .gitignore
+
+第四章：服务与通信
+
+ros2 pkg create chapt4_interfaces --dependencies sensor_msgs rosidl_default_generators --license Apache-2.0
+下载人脸检测
+pip3 install face_recognition -i http://pypi.tuna.tsinghua.edu.cn/simple
+
+
+param
+self.model = self.get_parameter("face_locations_model").value
+self.upsample_times = self.get_parameter("face_locations_upsample_times").value
+ros2 parm set 节点名字 参数名字 值
+或者：
+ros2 run 包名 文件名 --ros-args -p 参数名 ：=值
+
+launch  动作、替换、条件
+启动多个节点
+ros2 launch demo_python_service demo.launch.py
+ros2 launch demo.launch.py
+在launch中调整，调用直接修改：
+ros2 launch demo_cpp_service demo.launch.py launch_max_speed:=3.0
+
+
+
+
+
+
+
+

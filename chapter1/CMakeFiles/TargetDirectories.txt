@@ -1,0 +1,3 @@
+/home/wang/桌面/item/chapter1/CMakeFiles/learn_cmake.dir
+/home/wang/桌面/item/chapter1/CMakeFiles/edit_cache.dir
+/home/wang/桌面/item/chapter1/CMakeFiles/rebuild_cache.dir

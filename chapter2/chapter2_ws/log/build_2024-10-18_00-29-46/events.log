@@ -1,0 +1,267 @@
+[0.000000] (-) TimerEvent: {}
+[0.001293] (demo_cpp_pkg) JobQueued: {'identifier': 'demo_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001490] (demo_python_pkg) JobQueued: {'identifier': 'demo_python_pkg', 'dependencies': OrderedDict([('demo_cpp_pkg', '/home/wang/桌面/item/chapter2/chapter2_ws/install/demo_cpp_pkg')])}
+[0.001647] (demo_cpp_pkg) JobStarted: {'identifier': 'demo_cpp_pkg'}
+[0.045972] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'cmake'}
+[0.052644] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'build'}
+[0.053068] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'wang'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wang/tb3_ws/install/turtlebot3_msgs/lib:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/wang/tb3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/wang/桌面/item/chapter2/chapter2_ws/src'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1248'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9aeac38bc503f3889f07ca3d67111971'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wang/tb3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wang'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wang-virtual-machine:@/tmp/.ICE-unix/1248,unix/wang-virtual-machine:/tmp/.ICE-unix/1248'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6b69b79a_79c1_4d95_bcb1_1bc24ff57eec'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.U0I3V2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0bbbbcc813.sock'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/wang/tb3_ws/install/turtlebot3:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_simulations:/home/wang/tb3_ws/install/turtlebot3_bringup:/home/wang/tb3_ws/install/turtlebot3_node:/home/wang/tb3_ws/install/turtlebot3_navigation2:/home/wang/tb3_ws/install/turtlebot3_fake_node:/home/wang/tb3_ws/install/turtlebot3_example:/home/wang/tb3_ws/install/turtlebot3_msgs:/home/wang/tb3_ws/install/turtlebot3_gazebo:/home/wang/tb3_ws/install/turtlebot3_description:/home/wang/tb3_ws/install/turtlebot3_cartographer:/home/wang/tb3_ws/install/ld08_driver:/home/wang/tb3_ws/install/hls_lfcd_lds_driver:/home/wang/tb3_ws/install/dynamixel_sdk_examples:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces:/home/wang/tb3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9aeac38bc503f3889f07ca3d67111971'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wang/tb3_ws/build/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/wang/tb3_ws/build/turtlebot3_example:/home/wang/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/wang/tb3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wang/tb3_ws/install/turtlebot3:/home/wang/tb3_ws/install/turtlebot3_simulations:/home/wang/tb3_ws/install/turtlebot3_bringup:/home/wang/tb3_ws/install/turtlebot3_node:/home/wang/tb3_ws/install/turtlebot3_navigation2:/home/wang/tb3_ws/install/turtlebot3_fake_node:/home/wang/tb3_ws/install/turtlebot3_msgs:/home/wang/tb3_ws/install/turtlebot3_gazebo:/home/wang/tb3_ws/install/turtlebot3_description:/home/wang/tb3_ws/install/turtlebot3_cartographer:/home/wang/tb3_ws/install/ld08_driver:/home/wang/tb3_ws/install/hls_lfcd_lds_driver:/home/wang/tb3_ws/install/dynamixel_sdk_examples:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces:/home/wang/tb3_ws/install/dynamixel_sdk:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.097027] (-) TimerEvent: {}
+[0.198066] (-) TimerEvent: {}
+[0.248015] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.298833] (-) TimerEvent: {}
+[0.399879] (-) TimerEvent: {}
+[0.501610] (-) TimerEvent: {}
+[0.602612] (-) TimerEvent: {}
+[0.704368] (-) TimerEvent: {}
+[0.759464] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.806079] (-) TimerEvent: {}
+[0.910239] (-) TimerEvent: {}
+[0.933078] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.944547] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.974752] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.011137] (-) TimerEvent: {}
+[1.022179] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.074547] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.112548] (-) TimerEvent: {}
+[1.205132] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.213216] (-) TimerEvent: {}
+[1.215126] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.315453] (-) TimerEvent: {}
+[1.418093] (-) TimerEvent: {}
+[1.519292] (-) TimerEvent: {}
+[1.576985] (demo_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.621513] (-) TimerEvent: {}
+[1.722608] (-) TimerEvent: {}
+[1.780313] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.823513] (-) TimerEvent: {}
+[1.925689] (-) TimerEvent: {}
+[2.026515] (-) TimerEvent: {}
+[2.100680] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.104616] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter2/chapter2_ws/src/demo_cpp_pkg/include\n'}
+[2.104992] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.108881] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.118460] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.122561] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.127302] (-) TimerEvent: {}
+[2.147920] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.148509] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.151382] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.158450] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.227667] (-) TimerEvent: {}
+[2.263245] (demo_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[2.277004] (demo_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter2/chapter2_ws/build/demo_cpp_pkg\n'}
+[2.328546] (-) TimerEvent: {}
+[2.370935] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_auto\x1b[0m\n'}
+[2.389695] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target person_node\x1b[0m\n'}
+[2.412952] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[2.413200] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_shared_ptr\x1b[0m\n'}
+[2.433726] (-) TimerEvent: {}
+[2.452588] (demo_cpp_pkg) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/learn_shared_ptr.dir/src/learn_shared_ptr.cpp.o\x1b[0m\n'}
+[2.452993] (demo_cpp_pkg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/learn_auto.dir/src/learn_auto.cpp.o\x1b[0m\n'}
+[2.471327] (demo_cpp_pkg) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o\x1b[0m\n'}
+[2.489212] (demo_cpp_pkg) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[2.535403] (-) TimerEvent: {}
+[2.637629] (-) TimerEvent: {}
+[2.743741] (-) TimerEvent: {}
+[2.848805] (-) TimerEvent: {}
+[2.950323] (-) TimerEvent: {}
+[3.053552] (-) TimerEvent: {}
+[3.155931] (-) TimerEvent: {}
+[3.263282] (-) TimerEvent: {}
+[3.378894] (-) TimerEvent: {}
+[3.484408] (-) TimerEvent: {}
+[3.587942] (-) TimerEvent: {}
+[3.690374] (-) TimerEvent: {}
+[3.798857] (-) TimerEvent: {}
+[3.907157] (-) TimerEvent: {}
+[4.011951] (-) TimerEvent: {}
+[4.113708] (-) TimerEvent: {}
+[4.219181] (-) TimerEvent: {}
+[4.331631] (-) TimerEvent: {}
+[4.454198] (-) TimerEvent: {}
+[4.557524] (-) TimerEvent: {}
+[4.659790] (-) TimerEvent: {}
+[4.767426] (-) TimerEvent: {}
+[4.795998] (demo_cpp_pkg) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX executable learn_shared_ptr\x1b[0m\n'}
+[4.869343] (-) TimerEvent: {}
+[4.960877] (demo_cpp_pkg) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX executable learn_auto\x1b[0m\n'}
+[4.971561] (-) TimerEvent: {}
+[5.074625] (-) TimerEvent: {}
+[5.182138] (-) TimerEvent: {}
+[5.285596] (-) TimerEvent: {}
+[5.308855] (demo_cpp_pkg) StdoutLine: {'line': b'[ 42%] Built target learn_shared_ptr\n'}
+[5.385900] (-) TimerEvent: {}
+[5.472275] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_lambda\x1b[0m\n'}
+[5.489674] (-) TimerEvent: {}
+[5.591834] (-) TimerEvent: {}
+[5.595104] (demo_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o\x1b[0m\n'}
+[5.695368] (-) TimerEvent: {}
+[5.722734] (demo_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target learn_auto\n'}
+[5.795831] (-) TimerEvent: {}
+[5.802149] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_funcational\x1b[0m\n'}
+[5.893447] (demo_cpp_pkg) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/learn_funcational.dir/src/learn_funcational.cpp.o\x1b[0m\n'}
+[5.900664] (-) TimerEvent: {}
+[6.003636] (-) TimerEvent: {}
+[6.104460] (-) TimerEvent: {}
+[6.205484] (-) TimerEvent: {}
+[6.308625] (-) TimerEvent: {}
+[6.409639] (-) TimerEvent: {}
+[6.518116] (-) TimerEvent: {}
+[6.620343] (-) TimerEvent: {}
+[6.721297] (-) TimerEvent: {}
+[6.824648] (-) TimerEvent: {}
+[6.926646] (-) TimerEvent: {}
+[7.033224] (-) TimerEvent: {}
+[7.139207] (-) TimerEvent: {}
+[7.242877] (-) TimerEvent: {}
+[7.347193] (-) TimerEvent: {}
+[7.448516] (-) TimerEvent: {}
+[7.550291] (-) TimerEvent: {}
+[7.664588] (-) TimerEvent: {}
+[7.766152] (-) TimerEvent: {}
+[7.867618] (-) TimerEvent: {}
+[7.971485] (-) TimerEvent: {}
+[8.072795] (-) TimerEvent: {}
+[8.174785] (-) TimerEvent: {}
+[8.277399] (-) TimerEvent: {}
+[8.315667] (demo_cpp_pkg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable learn_lambda\x1b[0m\n'}
+[8.383040] (-) TimerEvent: {}
+[8.498306] (-) TimerEvent: {}
+[8.600634] (-) TimerEvent: {}
+[8.701810] (-) TimerEvent: {}
+[8.809556] (-) TimerEvent: {}
+[8.870323] (demo_cpp_pkg) StdoutLine: {'line': b'[ 64%] Built target learn_lambda\n'}
+[8.912578] (-) TimerEvent: {}
+[8.958095] (demo_cpp_pkg) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable learn_funcational\x1b[0m\n'}
+[8.977400] (demo_cpp_pkg) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o\x1b[0m\n'}
+[9.022761] (-) TimerEvent: {}
+[9.127969] (-) TimerEvent: {}
+[9.235334] (-) TimerEvent: {}
+[9.338806] (-) TimerEvent: {}
+[9.441324] (-) TimerEvent: {}
+[9.550343] (-) TimerEvent: {}
+[9.653470] (-) TimerEvent: {}
+[9.664734] (demo_cpp_pkg) StdoutLine: {'line': b'[ 78%] Built target learn_funcational\n'}
+[9.756964] (-) TimerEvent: {}
+[9.868207] (-) TimerEvent: {}
+[9.976888] (-) TimerEvent: {}
+[10.082731] (-) TimerEvent: {}
+[10.189652] (-) TimerEvent: {}
+[10.293213] (-) TimerEvent: {}
+[10.403484] (-) TimerEvent: {}
+[10.505288] (-) TimerEvent: {}
+[10.607342] (-) TimerEvent: {}
+[10.709650] (-) TimerEvent: {}
+[10.819025] (-) TimerEvent: {}
+[10.922807] (-) TimerEvent: {}
+[11.023443] (-) TimerEvent: {}
+[11.125554] (-) TimerEvent: {}
+[11.226948] (-) TimerEvent: {}
+[11.328288] (-) TimerEvent: {}
+[11.431244] (-) TimerEvent: {}
+[11.533367] (-) TimerEvent: {}
+[11.634830] (-) TimerEvent: {}
+[11.737833] (-) TimerEvent: {}
+[11.839574] (-) TimerEvent: {}
+[11.941413] (-) TimerEvent: {}
+[12.044995] (-) TimerEvent: {}
+[12.154463] (-) TimerEvent: {}
+[12.255947] (-) TimerEvent: {}
+[12.356882] (-) TimerEvent: {}
+[12.462943] (-) TimerEvent: {}
+[12.564786] (-) TimerEvent: {}
+[12.669778] (-) TimerEvent: {}
+[12.772510] (-) TimerEvent: {}
+[12.873718] (-) TimerEvent: {}
+[12.977553] (-) TimerEvent: {}
+[13.079110] (-) TimerEvent: {}
+[13.183239] (-) TimerEvent: {}
+[13.285534] (-) TimerEvent: {}
+[13.386077] (-) TimerEvent: {}
+[13.488730] (-) TimerEvent: {}
+[13.590017] (-) TimerEvent: {}
+[13.691912] (-) TimerEvent: {}
+[13.795276] (-) TimerEvent: {}
+[13.898330] (-) TimerEvent: {}
+[14.001312] (-) TimerEvent: {}
+[14.104599] (-) TimerEvent: {}
+[14.212398] (-) TimerEvent: {}
+[14.315206] (-) TimerEvent: {}
+[14.418357] (-) TimerEvent: {}
+[14.519698] (-) TimerEvent: {}
+[14.621188] (-) TimerEvent: {}
+[14.726049] (-) TimerEvent: {}
+[14.795357] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter2/chapter2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.799170] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter2/chapter2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:41:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kworld_count\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kword_count\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[14.799589] (demo_cpp_pkg) StderrLine: {'line': b'   41 |     d.start_download("http://0.0.0.0:8000","/novel1.txt",\x1b[01;31m\x1b[Kworld_count\x1b[m\x1b[K);\n'}
+[14.799787] (demo_cpp_pkg) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.800088] (demo_cpp_pkg) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[Kword_count\x1b[m\x1b[K\n'}
+[14.826923] (-) TimerEvent: {}
+[14.927883] (-) TimerEvent: {}
+[15.030321] (-) TimerEvent: {}
+[15.131675] (-) TimerEvent: {}
+[15.234207] (-) TimerEvent: {}
+[15.335481] (-) TimerEvent: {}
+[15.439359] (-) TimerEvent: {}
+[15.541887] (-) TimerEvent: {}
+[15.644443] (-) TimerEvent: {}
+[15.745926] (-) TimerEvent: {}
+[15.849206] (-) TimerEvent: {}
+[15.952717] (-) TimerEvent: {}
+[16.053791] (-) TimerEvent: {}
+[16.157498] (-) TimerEvent: {}
+[16.259160] (-) TimerEvent: {}
+[16.362000] (-) TimerEvent: {}
+[16.463128] (-) TimerEvent: {}
+[16.564332] (-) TimerEvent: {}
+[16.665564] (-) TimerEvent: {}
+[16.768037] (-) TimerEvent: {}
+[16.870189] (-) TimerEvent: {}
+[16.972938] (-) TimerEvent: {}
+[17.074927] (-) TimerEvent: {}
+[17.177549] (-) TimerEvent: {}
+[17.278501] (-) TimerEvent: {}
+[17.379405] (-) TimerEvent: {}
+[17.481725] (-) TimerEvent: {}
+[17.587898] (-) TimerEvent: {}
+[17.693229] (-) TimerEvent: {}
+[17.794225] (-) TimerEvent: {}
+[17.903265] (-) TimerEvent: {}
+[18.034017] (-) TimerEvent: {}
+[18.136847] (-) TimerEvent: {}
+[18.237822] (-) TimerEvent: {}
+[18.338725] (-) TimerEvent: {}
+[18.440128] (-) TimerEvent: {}
+[18.532793] (demo_cpp_pkg) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[18.540418] (-) TimerEvent: {}
+[18.564483] (demo_cpp_pkg) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable person_node\x1b[0m\n'}
+[18.653894] (-) TimerEvent: {}
+[18.755421] (-) TimerEvent: {}
+[18.858727] (-) TimerEvent: {}
+[18.961623] (-) TimerEvent: {}
+[19.062881] (-) TimerEvent: {}
+[19.166944] (-) TimerEvent: {}
+[19.272224] (-) TimerEvent: {}
+[19.376793] (-) TimerEvent: {}
+[19.483246] (-) TimerEvent: {}
+[19.497807] (demo_cpp_pkg) StdoutLine: {'line': b'[ 92%] Built target cpp_node\n'}
+[19.517787] (demo_cpp_pkg) StdoutLine: {'line': b'[ 92%] Built target person_node\n'}
+[19.583609] (-) TimerEvent: {}
+[19.684734] (-) TimerEvent: {}
+[19.785581] (-) TimerEvent: {}
+[19.886489] (-) TimerEvent: {}
+[19.987705] (-) TimerEvent: {}
+[20.088817] (-) TimerEvent: {}
+[20.190031] (-) TimerEvent: {}
+[20.291095] (-) TimerEvent: {}
+[20.392157] (-) TimerEvent: {}
+[20.484716] (demo_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:76\xef\xbc\x9aCMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[20.486759] (demo_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:305\xef\xbc\x9aCMakeFiles/learn_thread.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[20.491047] (demo_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[20.494385] (-) TimerEvent: {}
+[20.496673] (demo_cpp_pkg) CommandEnded: {'returncode': 2}
+[20.596128] (-) TimerEvent: {}
+[20.698073] (-) TimerEvent: {}
+[20.758903] (demo_cpp_pkg) JobEnded: {'identifier': 'demo_cpp_pkg', 'rc': 2}
+[20.771151] (demo_python_pkg) JobSkipped: {'identifier': 'demo_python_pkg'}
+[20.771288] (-) EventReactorShutdown: {}

@@ -1,0 +1,14 @@
+[0.060s] Invoking command in '/home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg -- -j4 -l4
+[0.200s] [35m[1mConsolidate compiler generated dependencies of target learn_auto[0m
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.280s] [ 16%] [32mBuilding CXX object CMakeFiles/learn_auto.dir/src/learn_auto.cpp.o[0m
+[0.296s] [ 50%] Built target cpp_node
+[0.298s] [ 83%] Built target person_node
+[1.273s] [100%] [32m[1mLinking CXX executable learn_auto[0m
+[1.596s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[1.598s] (.text+0x1b): undefined reference to `main'
+[1.607s] collect2: error: ld returned 1 exit status
+[1.614s] gmake[2]: *** [CMakeFiles/learn_auto.dir/build.make:151：learn_auto] 错误 1
+[1.614s] gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/learn_auto.dir/all] 错误 2
+[1.615s] gmake: *** [Makefile:146：all] 错误 2
+[1.633s] Invoked command in '/home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/wang/桌面/item/chapter2/chapter2_ws/build/demo_cpp_pkg -- -j4 -l4

@@ -1,0 +1,425 @@
+[0.000000] (-) TimerEvent: {}
+[0.001554] (demo_cpp_topic) JobQueued: {'identifier': 'demo_cpp_topic', 'dependencies': OrderedDict()}
+[0.001765] (demo_python_topic) JobQueued: {'identifier': 'demo_python_topic', 'dependencies': OrderedDict()}
+[0.004320] (demo_cpp_topic) JobStarted: {'identifier': 'demo_cpp_topic'}
+[0.056231] (demo_python_topic) JobStarted: {'identifier': 'demo_python_topic'}
+[0.087699] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'cmake'}
+[0.097823] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'build'}
+[0.098023] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wang/桌面/item/chapter3/topic_ws/build/demo_cpp_topic', '--', '-j4', '-l4'], 'cwd': '/home/wang/桌面/item/chapter3/topic_ws/build/demo_cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'wang'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wang/tb3_ws/install/turtlebot3_msgs/lib:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/wang/tb3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/wang/桌面/item/chapter3/topic_ws/src'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1197'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1383'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c477d9ca5a9bb752663f187267127776'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3027'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wang/tb3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wang'), ('JOURNAL_STREAM', '8:20746'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wang'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wang-virtual-machine:@/tmp/.ICE-unix/1383,unix/wang-virtual-machine:/tmp/.ICE-unix/1383'), ('INVOCATION_ID', '25e4fa161c214193b1609dec98bcf48b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J9J0V2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-42d8dc04f9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/wang/tb3_ws/install/turtlebot3:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_simulations:/home/wang/tb3_ws/install/turtlebot3_bringup:/home/wang/tb3_ws/install/turtlebot3_node:/home/wang/tb3_ws/install/turtlebot3_navigation2:/home/wang/tb3_ws/install/turtlebot3_fake_node:/home/wang/tb3_ws/install/turtlebot3_example:/home/wang/tb3_ws/install/turtlebot3_msgs:/home/wang/tb3_ws/install/turtlebot3_gazebo:/home/wang/tb3_ws/install/turtlebot3_description:/home/wang/tb3_ws/install/turtlebot3_cartographer:/home/wang/tb3_ws/install/ld08_driver:/home/wang/tb3_ws/install/hls_lfcd_lds_driver:/home/wang/tb3_ws/install/dynamixel_sdk_examples:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces:/home/wang/tb3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wang/桌面/item/chapter3/topic_ws/build/demo_cpp_topic'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c477d9ca5a9bb752663f187267127776'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wang/tb3_ws/build/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/wang/tb3_ws/build/turtlebot3_example:/home/wang/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/wang/tb3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wang/tb3_ws/install/turtlebot3:/home/wang/tb3_ws/install/turtlebot3_simulations:/home/wang/tb3_ws/install/turtlebot3_bringup:/home/wang/tb3_ws/install/turtlebot3_node:/home/wang/tb3_ws/install/turtlebot3_navigation2:/home/wang/tb3_ws/install/turtlebot3_fake_node:/home/wang/tb3_ws/install/turtlebot3_msgs:/home/wang/tb3_ws/install/turtlebot3_gazebo:/home/wang/tb3_ws/install/turtlebot3_description:/home/wang/tb3_ws/install/turtlebot3_cartographer:/home/wang/tb3_ws/install/ld08_driver:/home/wang/tb3_ws/install/hls_lfcd_lds_driver:/home/wang/tb3_ws/install/dynamixel_sdk_examples:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces:/home/wang/tb3_ws/install/dynamixel_sdk:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.100626] (-) TimerEvent: {}
+[0.203016] (-) TimerEvent: {}
+[0.306450] (-) TimerEvent: {}
+[0.407412] (-) TimerEvent: {}
+[0.425051] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.507752] (-) TimerEvent: {}
+[0.608640] (-) TimerEvent: {}
+[0.710874] (-) TimerEvent: {}
+[0.814257] (-) TimerEvent: {}
+[0.916247] (-) TimerEvent: {}
+[1.017428] (-) TimerEvent: {}
+[1.120654] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.121092] (-) TimerEvent: {}
+[1.222124] (-) TimerEvent: {}
+[1.297613] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.311358] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.326976] (-) TimerEvent: {}
+[1.342812] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.402036] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.428456] (-) TimerEvent: {}
+[1.469073] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.529489] (-) TimerEvent: {}
+[1.627192] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.629696] (-) TimerEvent: {}
+[1.642791] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.732604] (-) TimerEvent: {}
+[1.834692] (-) TimerEvent: {}
+[1.935654] (-) TimerEvent: {}
+[2.038283] (-) TimerEvent: {}
+[2.090201] (demo_cpp_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.140243] (-) TimerEvent: {}
+[2.240928] (-) TimerEvent: {}
+[2.338622] (demo_cpp_topic) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.341807] (-) TimerEvent: {}
+[2.372207] (demo_cpp_topic) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[2.442885] (-) TimerEvent: {}
+[2.508740] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.544277] (-) TimerEvent: {}
+[2.666594] (-) TimerEvent: {}
+[2.729944] (demo_python_topic) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/demo_python_topic', 'build', '--build-base', '/home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic/build', 'install', '--record', '/home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wang/桌面/item/chapter3/topic_ws/src/demo_python_topic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'wang', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wang/tb3_ws/install/turtlebot3_msgs/lib:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/wang/tb3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/wang', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/wang/桌面/item/chapter3/topic_ws/src', 'TERM_PROGRAM_VERSION': '1.94.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1197', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1383', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c477d9ca5a9bb752663f187267127776', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3027', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/wang/tb3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wang', 'JOURNAL_STREAM': '8:20746', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wang', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wang-virtual-machine:@/tmp/.ICE-unix/1383,unix/wang-virtual-machine:/tmp/.ICE-unix/1383', 'INVOCATION_ID': '25e4fa161c214193b1609dec98bcf48b', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.J9J0V2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-42d8dc04f9.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/wang/tb3_ws/install/turtlebot3:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_simulations:/home/wang/tb3_ws/install/turtlebot3_bringup:/home/wang/tb3_ws/install/turtlebot3_node:/home/wang/tb3_ws/install/turtlebot3_navigation2:/home/wang/tb3_ws/install/turtlebot3_fake_node:/home/wang/tb3_ws/install/turtlebot3_example:/home/wang/tb3_ws/install/turtlebot3_msgs:/home/wang/tb3_ws/install/turtlebot3_gazebo:/home/wang/tb3_ws/install/turtlebot3_description:/home/wang/tb3_ws/install/turtlebot3_cartographer:/home/wang/tb3_ws/install/ld08_driver:/home/wang/tb3_ws/install/hls_lfcd_lds_driver:/home/wang/tb3_ws/install/dynamixel_sdk_examples:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces:/home/wang/tb3_ws/install/dynamixel_sdk:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c477d9ca5a9bb752663f187267127776', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wang/桌面/item/chapter3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wang/桌面/item/chapter3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:/home/wang/tb3_ws/build/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/wang/tb3_ws/build/turtlebot3_example:/home/wang/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/wang/tb3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/wang/tb3_ws/install/turtlebot3:/home/wang/tb3_ws/install/turtlebot3_simulations:/home/wang/tb3_ws/install/turtlebot3_bringup:/home/wang/tb3_ws/install/turtlebot3_node:/home/wang/tb3_ws/install/turtlebot3_navigation2:/home/wang/tb3_ws/install/turtlebot3_fake_node:/home/wang/tb3_ws/install/turtlebot3_msgs:/home/wang/tb3_ws/install/turtlebot3_gazebo:/home/wang/tb3_ws/install/turtlebot3_description:/home/wang/tb3_ws/install/turtlebot3_cartographer:/home/wang/tb3_ws/install/ld08_driver:/home/wang/tb3_ws/install/hls_lfcd_lds_driver:/home/wang/tb3_ws/install/dynamixel_sdk_examples:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces:/home/wang/tb3_ws/install/dynamixel_sdk'}, 'shell': False}
+[2.767495] (-) TimerEvent: {}
+[2.843490] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.844314] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.844584] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.849014] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.852634] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.853053] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.854745] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.862606] (demo_cpp_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.869162] (-) TimerEvent: {}
+[2.953792] (demo_cpp_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[2.962116] (demo_cpp_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/build/demo_cpp_topic\n'}
+[2.969957] (-) TimerEvent: {}
+[3.070084] (demo_cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_control\x1b[0m\n'}
+[3.070537] (-) TimerEvent: {}
+[3.076772] (demo_cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_circle\x1b[0m\n'}
+[3.125767] (demo_cpp_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o\x1b[0m\n'}
+[3.171973] (-) TimerEvent: {}
+[3.213781] (demo_cpp_topic) StdoutLine: {'line': b'[ 75%] Built target turtle_circle\n'}
+[3.272154] (-) TimerEvent: {}
+[3.373137] (-) TimerEvent: {}
+[3.474416] (-) TimerEvent: {}
+[3.578546] (-) TimerEvent: {}
+[3.602267] (demo_python_topic) StdoutLine: {'line': b'running egg_info\n'}
+[3.604312] (demo_python_topic) StdoutLine: {'line': b'writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO\n'}
+[3.608697] (demo_python_topic) StdoutLine: {'line': b'writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt\n'}
+[3.609079] (demo_python_topic) StdoutLine: {'line': b'writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt\n'}
+[3.609444] (demo_python_topic) StdoutLine: {'line': b'writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt\n'}
+[3.609720] (demo_python_topic) StdoutLine: {'line': b'writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt\n'}
+[3.614047] (demo_python_topic) StdoutLine: {'line': b"reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[3.614400] (demo_python_topic) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.615435] (demo_python_topic) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[3.616316] (demo_python_topic) StdoutLine: {'line': b'running build\n'}
+[3.616608] (demo_python_topic) StdoutLine: {'line': b'running build_py\n'}
+[3.618053] (demo_python_topic) StdoutLine: {'line': b'running install\n'}
+[3.619583] (demo_python_topic) StdoutLine: {'line': b'running install_lib\n'}
+[3.623445] (demo_python_topic) StdoutLine: {'line': b'running install_data\n'}
+[3.623919] (demo_python_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.632329] (demo_python_topic) StdoutLine: {'line': b"removing '/home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.634041] (demo_python_topic) StdoutLine: {'line': b'Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info\n'}
+[3.638043] (demo_python_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[3.681327] (-) TimerEvent: {}
+[3.696771] (demo_python_topic) StdoutLine: {'line': b'Installing novel_pub_node script to /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_python_topic/lib/demo_python_topic\n'}
+[3.701757] (demo_python_topic) StdoutLine: {'line': b'Installing novel_sub_node script to /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_python_topic/lib/demo_python_topic\n'}
+[3.702251] (demo_python_topic) StdoutLine: {'line': b"writing list of installed files to '/home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/build/demo_python_topic/install.log'\n"}
+[3.765678] (demo_python_topic) CommandEnded: {'returncode': 0}
+[3.782091] (-) TimerEvent: {}
+[3.842137] (demo_python_topic) JobEnded: {'identifier': 'demo_python_topic', 'rc': 0}
+[3.884390] (-) TimerEvent: {}
+[3.985451] (-) TimerEvent: {}
+[4.087844] (-) TimerEvent: {}
+[4.190808] (-) TimerEvent: {}
+[4.294165] (-) TimerEvent: {}
+[4.395762] (-) TimerEvent: {}
+[4.497435] (-) TimerEvent: {}
+[4.599819] (-) TimerEvent: {}
+[4.703457] (-) TimerEvent: {}
+[4.805484] (-) TimerEvent: {}
+[4.907515] (-) TimerEvent: {}
+[5.012598] (-) TimerEvent: {}
+[5.113811] (-) TimerEvent: {}
+[5.215719] (-) TimerEvent: {}
+[5.323686] (-) TimerEvent: {}
+[5.425216] (-) TimerEvent: {}
+[5.527003] (-) TimerEvent: {}
+[5.633102] (-) TimerEvent: {}
+[5.734938] (-) TimerEvent: {}
+[5.836000] (-) TimerEvent: {}
+[5.937472] (-) TimerEvent: {}
+[6.039171] (-) TimerEvent: {}
+[6.140476] (-) TimerEvent: {}
+[6.241725] (-) TimerEvent: {}
+[6.350318] (-) TimerEvent: {}
+[6.459578] (-) TimerEvent: {}
+[6.561188] (-) TimerEvent: {}
+[6.662870] (-) TimerEvent: {}
+[6.764497] (-) TimerEvent: {}
+[6.865379] (-) TimerEvent: {}
+[6.966442] (-) TimerEvent: {}
+[7.072759] (-) TimerEvent: {}
+[7.179165] (-) TimerEvent: {}
+[7.281280] (-) TimerEvent: {}
+[7.383335] (-) TimerEvent: {}
+[7.484799] (-) TimerEvent: {}
+[7.586032] (-) TimerEvent: {}
+[7.687652] (-) TimerEvent: {}
+[7.789694] (-) TimerEvent: {}
+[7.890655] (-) TimerEvent: {}
+[7.992599] (-) TimerEvent: {}
+[8.093913] (-) TimerEvent: {}
+[8.195593] (-) TimerEvent: {}
+[8.297475] (-) TimerEvent: {}
+[8.398794] (-) TimerEvent: {}
+[8.500318] (-) TimerEvent: {}
+[8.602285] (-) TimerEvent: {}
+[8.704017] (-) TimerEvent: {}
+[8.805204] (-) TimerEvent: {}
+[8.912019] (-) TimerEvent: {}
+[9.013786] (-) TimerEvent: {}
+[9.115118] (-) TimerEvent: {}
+[9.216080] (-) TimerEvent: {}
+[9.317409] (-) TimerEvent: {}
+[9.418681] (-) TimerEvent: {}
+[9.519539] (-) TimerEvent: {}
+[9.628855] (-) TimerEvent: {}
+[9.729920] (-) TimerEvent: {}
+[9.849090] (-) TimerEvent: {}
+[9.952960] (-) TimerEvent: {}
+[10.153428] (-) TimerEvent: {}
+[10.276756] (-) TimerEvent: {}
+[10.377532] (-) TimerEvent: {}
+[10.480259] (-) TimerEvent: {}
+[10.582137] (-) TimerEvent: {}
+[10.682999] (-) TimerEvent: {}
+[10.783704] (-) TimerEvent: {}
+[10.886518] (-) TimerEvent: {}
+[10.988557] (-) TimerEvent: {}
+[11.090426] (-) TimerEvent: {}
+[11.191628] (-) TimerEvent: {}
+[11.292673] (-) TimerEvent: {}
+[11.394265] (-) TimerEvent: {}
+[11.500184] (-) TimerEvent: {}
+[11.601667] (-) TimerEvent: {}
+[11.708973] (-) TimerEvent: {}
+[11.810578] (-) TimerEvent: {}
+[11.911101] (-) TimerEvent: {}
+[12.012375] (-) TimerEvent: {}
+[12.114154] (-) TimerEvent: {}
+[12.214869] (-) TimerEvent: {}
+[12.316002] (-) TimerEvent: {}
+[12.416803] (-) TimerEvent: {}
+[12.517524] (-) TimerEvent: {}
+[12.619318] (-) TimerEvent: {}
+[12.720604] (-) TimerEvent: {}
+[12.838062] (-) TimerEvent: {}
+[12.939772] (-) TimerEvent: {}
+[13.041100] (-) TimerEvent: {}
+[13.149652] (-) TimerEvent: {}
+[13.251011] (-) TimerEvent: {}
+[13.353319] (-) TimerEvent: {}
+[13.464944] (-) TimerEvent: {}
+[13.566289] (-) TimerEvent: {}
+[13.668061] (-) TimerEvent: {}
+[13.776571] (-) TimerEvent: {}
+[13.877777] (-) TimerEvent: {}
+[13.978805] (-) TimerEvent: {}
+[14.079719] (-) TimerEvent: {}
+[14.180579] (-) TimerEvent: {}
+[14.283152] (-) TimerEvent: {}
+[14.385628] (-) TimerEvent: {}
+[14.487143] (-) TimerEvent: {}
+[14.588238] (-) TimerEvent: {}
+[14.704644] (-) TimerEvent: {}
+[14.807350] (-) TimerEvent: {}
+[14.933671] (-) TimerEvent: {}
+[15.059692] (-) TimerEvent: {}
+[15.174067] (-) TimerEvent: {}
+[15.274901] (-) TimerEvent: {}
+[15.404899] (-) TimerEvent: {}
+[15.506118] (-) TimerEvent: {}
+[15.607297] (-) TimerEvent: {}
+[15.708191] (-) TimerEvent: {}
+[15.846828] (-) TimerEvent: {}
+[15.952393] (-) TimerEvent: {}
+[16.055689] (-) TimerEvent: {}
+[16.157001] (-) TimerEvent: {}
+[16.258770] (-) TimerEvent: {}
+[16.362168] (-) TimerEvent: {}
+[16.463514] (-) TimerEvent: {}
+[16.564997] (-) TimerEvent: {}
+[16.666205] (-) TimerEvent: {}
+[16.771283] (-) TimerEvent: {}
+[16.878549] (-) TimerEvent: {}
+[16.979836] (-) TimerEvent: {}
+[17.080787] (-) TimerEvent: {}
+[17.182953] (-) TimerEvent: {}
+[17.286559] (-) TimerEvent: {}
+[17.387694] (-) TimerEvent: {}
+[17.490894] (-) TimerEvent: {}
+[17.591693] (-) TimerEvent: {}
+[17.692389] (-) TimerEvent: {}
+[17.793807] (-) TimerEvent: {}
+[17.916572] (-) TimerEvent: {}
+[18.018002] (-) TimerEvent: {}
+[18.124951] (-) TimerEvent: {}
+[18.226396] (-) TimerEvent: {}
+[18.329591] (-) TimerEvent: {}
+[18.430581] (-) TimerEvent: {}
+[18.532014] (-) TimerEvent: {}
+[18.632917] (-) TimerEvent: {}
+[18.781922] (-) TimerEvent: {}
+[18.883850] (-) TimerEvent: {}
+[18.985459] (-) TimerEvent: {}
+[19.092407] (-) TimerEvent: {}
+[19.194877] (-) TimerEvent: {}
+[19.296351] (-) TimerEvent: {}
+[19.399490] (-) TimerEvent: {}
+[19.500829] (-) TimerEvent: {}
+[19.601882] (-) TimerEvent: {}
+[19.702893] (-) TimerEvent: {}
+[19.803823] (-) TimerEvent: {}
+[19.904617] (-) TimerEvent: {}
+[20.007547] (-) TimerEvent: {}
+[20.112305] (-) TimerEvent: {}
+[20.213907] (-) TimerEvent: {}
+[20.318639] (-) TimerEvent: {}
+[20.421051] (-) TimerEvent: {}
+[20.522032] (-) TimerEvent: {}
+[20.626616] (-) TimerEvent: {}
+[20.728205] (-) TimerEvent: {}
+[20.832819] (-) TimerEvent: {}
+[20.945755] (-) TimerEvent: {}
+[21.048564] (-) TimerEvent: {}
+[21.151150] (-) TimerEvent: {}
+[21.252141] (-) TimerEvent: {}
+[21.352888] (-) TimerEvent: {}
+[21.456278] (-) TimerEvent: {}
+[21.557408] (-) TimerEvent: {}
+[21.658609] (-) TimerEvent: {}
+[21.760070] (-) TimerEvent: {}
+[21.861179] (-) TimerEvent: {}
+[21.962875] (-) TimerEvent: {}
+[22.064224] (-) TimerEvent: {}
+[22.166237] (-) TimerEvent: {}
+[22.267701] (-) TimerEvent: {}
+[22.369073] (-) TimerEvent: {}
+[22.470355] (-) TimerEvent: {}
+[22.573053] (-) TimerEvent: {}
+[22.675175] (-) TimerEvent: {}
+[22.776918] (-) TimerEvent: {}
+[22.882901] (-) TimerEvent: {}
+[22.984208] (-) TimerEvent: {}
+[23.087230] (-) TimerEvent: {}
+[23.194070] (-) TimerEvent: {}
+[23.294880] (-) TimerEvent: {}
+[23.396344] (-) TimerEvent: {}
+[23.497429] (-) TimerEvent: {}
+[23.599392] (-) TimerEvent: {}
+[23.702766] (-) TimerEvent: {}
+[23.803504] (-) TimerEvent: {}
+[23.905118] (-) TimerEvent: {}
+[24.006709] (-) TimerEvent: {}
+[24.107977] (-) TimerEvent: {}
+[24.209192] (-) TimerEvent: {}
+[24.311143] (-) TimerEvent: {}
+[24.412155] (-) TimerEvent: {}
+[24.513571] (-) TimerEvent: {}
+[24.615289] (-) TimerEvent: {}
+[24.716740] (-) TimerEvent: {}
+[24.818247] (-) TimerEvent: {}
+[24.919692] (-) TimerEvent: {}
+[25.020891] (-) TimerEvent: {}
+[25.122421] (-) TimerEvent: {}
+[25.223325] (-) TimerEvent: {}
+[25.324177] (-) TimerEvent: {}
+[25.425935] (-) TimerEvent: {}
+[25.526757] (-) TimerEvent: {}
+[25.628376] (-) TimerEvent: {}
+[25.730028] (-) TimerEvent: {}
+[25.831236] (-) TimerEvent: {}
+[25.932084] (-) TimerEvent: {}
+[26.032870] (-) TimerEvent: {}
+[26.133557] (-) TimerEvent: {}
+[26.234801] (-) TimerEvent: {}
+[26.340876] (-) TimerEvent: {}
+[26.449981] (-) TimerEvent: {}
+[26.551652] (-) TimerEvent: {}
+[26.652765] (-) TimerEvent: {}
+[26.760069] (-) TimerEvent: {}
+[26.886281] (-) TimerEvent: {}
+[27.016769] (-) TimerEvent: {}
+[27.120478] (-) TimerEvent: {}
+[27.221185] (-) TimerEvent: {}
+[27.327760] (-) TimerEvent: {}
+[27.429586] (-) TimerEvent: {}
+[27.531066] (-) TimerEvent: {}
+[27.632574] (-) TimerEvent: {}
+[27.735149] (-) TimerEvent: {}
+[27.836810] (-) TimerEvent: {}
+[27.937888] (-) TimerEvent: {}
+[28.044614] (-) TimerEvent: {}
+[28.146689] (-) TimerEvent: {}
+[28.250734] (-) TimerEvent: {}
+[28.351742] (-) TimerEvent: {}
+[28.452807] (-) TimerEvent: {}
+[28.553528] (-) TimerEvent: {}
+[28.654976] (-) TimerEvent: {}
+[28.756109] (-) TimerEvent: {}
+[28.861097] (-) TimerEvent: {}
+[28.961859] (-) TimerEvent: {}
+[29.066133] (-) TimerEvent: {}
+[29.169975] (-) TimerEvent: {}
+[29.273498] (-) TimerEvent: {}
+[29.375237] (-) TimerEvent: {}
+[29.477180] (-) TimerEvent: {}
+[29.578420] (-) TimerEvent: {}
+[29.682339] (-) TimerEvent: {}
+[29.783681] (-) TimerEvent: {}
+[29.900272] (-) TimerEvent: {}
+[30.002265] (-) TimerEvent: {}
+[30.103469] (-) TimerEvent: {}
+[30.206740] (-) TimerEvent: {}
+[30.309939] (-) TimerEvent: {}
+[30.410455] (-) TimerEvent: {}
+[30.512194] (-) TimerEvent: {}
+[30.616092] (-) TimerEvent: {}
+[30.718135] (-) TimerEvent: {}
+[30.820100] (-) TimerEvent: {}
+[30.921732] (-) TimerEvent: {}
+[31.031235] (-) TimerEvent: {}
+[31.133725] (-) TimerEvent: {}
+[31.235180] (-) TimerEvent: {}
+[31.336043] (-) TimerEvent: {}
+[31.444820] (-) TimerEvent: {}
+[31.549918] (-) TimerEvent: {}
+[31.651745] (-) TimerEvent: {}
+[31.753314] (-) TimerEvent: {}
+[31.857388] (-) TimerEvent: {}
+[31.958250] (-) TimerEvent: {}
+[32.060216] (-) TimerEvent: {}
+[32.161804] (-) TimerEvent: {}
+[32.263567] (-) TimerEvent: {}
+[32.364967] (-) TimerEvent: {}
+[32.466092] (-) TimerEvent: {}
+[32.567724] (-) TimerEvent: {}
+[32.692039] (-) TimerEvent: {}
+[32.796016] (-) TimerEvent: {}
+[32.897468] (-) TimerEvent: {}
+[32.999661] (-) TimerEvent: {}
+[33.100833] (-) TimerEvent: {}
+[33.201578] (-) TimerEvent: {}
+[33.303406] (-) TimerEvent: {}
+[33.374715] (demo_cpp_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_control\x1b[0m\n'}
+[33.404559] (-) TimerEvent: {}
+[33.505230] (-) TimerEvent: {}
+[33.606205] (-) TimerEvent: {}
+[33.710084] (-) TimerEvent: {}
+[33.812132] (-) TimerEvent: {}
+[33.912744] (-) TimerEvent: {}
+[34.020415] (-) TimerEvent: {}
+[34.123921] (-) TimerEvent: {}
+[34.224935] (-) TimerEvent: {}
+[34.328586] (-) TimerEvent: {}
+[34.429604] (-) TimerEvent: {}
+[34.531520] (-) TimerEvent: {}
+[34.636110] (-) TimerEvent: {}
+[34.749878] (demo_cpp_topic) StdoutLine: {'line': b'[100%] Built target turtle_control\n'}
+[34.750346] (-) TimerEvent: {}
+[34.794024] (demo_cpp_topic) CommandEnded: {'returncode': 0}
+[34.850614] (-) TimerEvent: {}
+[34.909105] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'install'}
+[34.951461] (-) TimerEvent: {}
+[34.965170] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wang/桌面/item/chapter3/topic_ws/build/demo_cpp_topic'], 'cwd': '/home/wang/桌面/item/chapter3/topic_ws/build/demo_cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'wang'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wang/tb3_ws/install/turtlebot3_msgs/lib:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/wang/tb3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/wang/桌面/item/chapter3/topic_ws/src'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1197'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1383'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c477d9ca5a9bb752663f187267127776'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3027'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wang/tb3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wang'), ('JOURNAL_STREAM', '8:20746'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wang'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/wang/tb3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wang-virtual-machine:@/tmp/.ICE-unix/1383,unix/wang-virtual-machine:/tmp/.ICE-unix/1383'), ('INVOCATION_ID', '25e4fa161c214193b1609dec98bcf48b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J9J0V2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-42d8dc04f9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/wang/tb3_ws/install/turtlebot3:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_simulations:/home/wang/tb3_ws/install/turtlebot3_bringup:/home/wang/tb3_ws/install/turtlebot3_node:/home/wang/tb3_ws/install/turtlebot3_navigation2:/home/wang/tb3_ws/install/turtlebot3_fake_node:/home/wang/tb3_ws/install/turtlebot3_example:/home/wang/tb3_ws/install/turtlebot3_msgs:/home/wang/tb3_ws/install/turtlebot3_gazebo:/home/wang/tb3_ws/install/turtlebot3_description:/home/wang/tb3_ws/install/turtlebot3_cartographer:/home/wang/tb3_ws/install/ld08_driver:/home/wang/tb3_ws/install/hls_lfcd_lds_driver:/home/wang/tb3_ws/install/dynamixel_sdk_examples:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces:/home/wang/tb3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wang/桌面/item/chapter3/topic_ws/build/demo_cpp_topic'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c477d9ca5a9bb752663f187267127776'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wang/tb3_ws/build/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/wang/tb3_ws/build/turtlebot3_example:/home/wang/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/wang/tb3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wang/tb3_ws/install/turtlebot3:/home/wang/tb3_ws/install/turtlebot3_simulations:/home/wang/tb3_ws/install/turtlebot3_bringup:/home/wang/tb3_ws/install/turtlebot3_node:/home/wang/tb3_ws/install/turtlebot3_navigation2:/home/wang/tb3_ws/install/turtlebot3_fake_node:/home/wang/tb3_ws/install/turtlebot3_msgs:/home/wang/tb3_ws/install/turtlebot3_gazebo:/home/wang/tb3_ws/install/turtlebot3_description:/home/wang/tb3_ws/install/turtlebot3_cartographer:/home/wang/tb3_ws/install/ld08_driver:/home/wang/tb3_ws/install/hls_lfcd_lds_driver:/home/wang/tb3_ws/install/dynamixel_sdk_examples:/home/wang/tb3_ws/install/dynamixel_sdk_custom_interfaces:/home/wang/tb3_ws/install/dynamixel_sdk:/home/wang/tb3_ws/install/turtlebot3_teleop:/home/wang/tb3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[35.001136] (demo_cpp_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.010488] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control\n'}
+[35.025265] (demo_cpp_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control" to ""\n'}
+[35.031615] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle\n'}
+[35.032599] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic\n'}
+[35.033061] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic\n'}
+[35.033244] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh\n'}
+[35.033434] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv\n'}
+[35.037898] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh\n'}
+[35.039336] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv\n'}
+[35.041656] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash\n'}
+[35.041935] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh\n'}
+[35.042240] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh\n'}
+[35.043253] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv\n'}
+[35.043455] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv\n'}
+[35.043792] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic\n'}
+[35.044056] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake\n'}
+[35.044259] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake\n'}
+[35.045372] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/wang/\xe6\xa1\x8c\xe9\x9d\xa2/item/chapter3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml\n'}
+[35.047433] (demo_cpp_topic) CommandEnded: {'returncode': 0}
+[35.052283] (-) TimerEvent: {}
+[35.162291] (-) TimerEvent: {}
+[35.210031] (demo_cpp_topic) JobEnded: {'identifier': 'demo_cpp_topic', 'rc': 0}
+[35.212980] (-) EventReactorShutdown: {}
